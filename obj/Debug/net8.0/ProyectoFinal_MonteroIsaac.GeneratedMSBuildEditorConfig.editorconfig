@@ -9,163 +9,163 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoFinal_MonteroIsaac
 build_property.RootNamespace = ProyectoFinal_MonteroIsaac
-build_property.ProjectDir = A:\Programación avanzada\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\Proyecto\ProyectoFinal_MonteroIsaac\
+build_property.ProjectDir = A:\Programación avanzada\Montero_Isaac_901220975_ProyectoFinal_Avance2\Proyecto\ProyectoFinal_MonteroIsaac\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = A:\Programación avanzada\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\Proyecto\ProyectoFinal_MonteroIsaac
+build_property.MSBuildProjectDirectory = A:\Programación avanzada\Montero_Isaac_901220975_ProyectoFinal_Avance2\Proyecto\ProyectoFinal_MonteroIsaac
 build_property._RazorSourceGeneratorDebug = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Account/AccessDenied.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Account/Login.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Account/Register.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Admin/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/Create.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/Delete.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/Edit.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/_Form.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Carreras/_Form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcX0Zvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Configuracion/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Configuracion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2lvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/Create.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/Delete.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/Edit.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/_Form.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Cursos/_Form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXF9Gb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/Create.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/Delete.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/Edit.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/_Form.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docentes/_Form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZXNcX0Zvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docente/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Docente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Create.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Delete.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Details.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Edit.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/_Form.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiantes/_Form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcX0Zvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/Matricular.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/Matricular.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxNYXRyaWN1bGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/MiCarrera.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/MiCarrera.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxNaUNhcnJlcmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/MiMatricula.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/MiMatricula.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxNaU1hdHJpY3VsYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/Resumen.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Estudiante/Resumen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxSZXN1bWVuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Home/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Matriculas/Index.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Matriculas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Shared/Error.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Shared/_Layout.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/_ViewImports.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/Programación avanzada/Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/_ViewStart.cshtml]
+[A:/Programación avanzada/Montero_Isaac_901220975_ProyectoFinal_Avance2/Proyecto/ProyectoFinal_MonteroIsaac/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vTxjVgVmDK0lmZuqkrCAcVCm4z0Oa+FJ9s+oqshsqMU=",
+  "Hash": "j8yC6TWU0V2JBRxomT/caT772ON0cFtPufqq1YtOX44=",
   "Source": "ProyectoFinal_MonteroIsaac",
   "BasePath": "_content/ProyectoFinal_MonteroIsaac",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ProyectoFinal_MonteroIsaac\\wwwroot",
       "Source": "ProyectoFinal_MonteroIsaac",
-      "ContentRoot": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\",
+      "ContentRoot": "A:\\Programación avanzada\\Montero_Isaac_901220975_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\",
       "BasePath": "_content/ProyectoFinal_MonteroIsaac",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\css\\site.css",
+      "Identity": "A:\\Programación avanzada\\Montero_Isaac_901220975_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\css\\site.css",
       "SourceId": "ProyectoFinal_MonteroIsaac",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\",
+      "ContentRoot": "A:\\Programación avanzada\\Montero_Isaac_901220975_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\",
       "BasePath": "_content/ProyectoFinal_MonteroIsaac",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
