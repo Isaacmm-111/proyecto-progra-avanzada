@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HQn9doAqky0=",
+  "dgSpecHash": "+Ufi09IK380=",
   "success": true,
-  "projectFilePath": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\ProyectoFinal_MonteroIsaac.csproj",
+  "projectFilePath": "A:\\Programación avanzada\\Montero_Isaac_901220975_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\ProyectoFinal_MonteroIsaac.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC Master User\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\PC Master User\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.10\\microsoft.aspnetcore.cryptography.internal.8.0.10.nupkg.sha512",

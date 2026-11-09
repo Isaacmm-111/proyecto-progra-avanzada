@@ -2330,11 +2330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\ProyectoFinal_MonteroIsaac.csproj",
+      "projectUniqueName": "A:\\Programación avanzada\\Montero_Isaac_901220975_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\ProyectoFinal_MonteroIsaac.csproj",
       "projectName": "ProyectoFinal_MonteroIsaac",
-      "projectPath": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\ProyectoFinal_MonteroIsaac.csproj",
+      "projectPath": "A:\\Programación avanzada\\Montero_Isaac_901220975_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\ProyectoFinal_MonteroIsaac.csproj",
       "packagesPath": "C:\\Users\\PC Master User\\.nuget\\packages\\",
-      "outputPath": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\obj\\",
+      "outputPath": "A:\\Programación avanzada\\Montero_Isaac_901220975_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC Master User\\AppData\\Roaming\\NuGet\\NuGet.Config"

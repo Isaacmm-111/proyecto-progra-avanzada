@@ -1,3 +1,9 @@
+//Usuarios de prueba
+//| Rol           | Correo                | Contraseña  |
+//| Administrador | admin@fidelitas.ac.cr | Admin123    |
+//| Docente       | solano@correo.edu     | Docente1    |
+//| Estudiante    | ana.mora@correo.edu   | Estudiante1 |
+
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
