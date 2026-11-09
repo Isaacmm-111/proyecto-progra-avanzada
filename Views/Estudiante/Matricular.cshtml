@@ -1,0 +1,46 @@
+@model CatalogoViewModel
+@{ ViewData["Title"] = "Matricular cursos"; }
+<h2>Cursos de @Model.Carrera</h2>
+@if (!Model.PeriodoAbierto) { <div class="alert alert-warning">El periodo de matrícula está cerrado.</div> }
+<form method="get" class="row g-2 mb-3">
+  <div class="col-md-5"><input name="q" value="@Model.Busqueda" class="form-control" placeholder="🔍 Buscar por nombre o código" /></div>
+  <div class="col-md-3"><select name="cuatrimestre" class="form-select">
+      <option value="">Cuatrimestre: Todos</option>
+      @foreach (var c in Model.Cuatrimestres) { <option value="@c" selected="@(Model.Cuatrimestre == c)">Cuatrimestre @c</option> }
+  </select></div>
+  <div class="col-auto"><button class="btn btn-outline-primary">Filtrar</button> <a class="btn btn-link" asp-action="Matricular">Limpiar</a></div>
+</form>
+<form asp-action="Resumen" method="post" id="frmMatricula">
+<div class="table-responsive"><table class="table table-striped bg-white align-middle">
+<thead><tr><th></th><th>Código</th><th>Curso</th><th>Cr.</th><th>Cuatri.</th><th>Docente</th><th>Horario</th><th>Cupos</th></tr></thead>
+<tbody>
+@foreach (var c in Model.Cursos)
+{
+  var ya = Model.Matriculados.Contains(c.Id);
+  var sinCupo = !ya && c.CuposDisponibles <= 0;
+  <tr class="@(ya || sinCupo ? "text-muted" : "")">
+    <td><input type="checkbox" name="cursoIds" value="@c.Id" data-creditos="@c.Creditos" class="form-check-input chk" @((ya || sinCupo || !Model.PeriodoAbierto) ? "disabled" : "") /></td>
+    <td>@c.Codigo</td><td>@c.Nombre@(ya ? " (matriculado)" : "")</td><td>@c.Creditos</td><td>@c.Cuatrimestre</td><td>@(c.Docente?.Nombre ?? "Por asignar")</td><td>@c.Horario</td>
+    <td>@if (ya) { <span class="badge bg-info text-dark">Ya matriculado</span> } else if (sinCupo) { <span class="badge badge-sin-cupo">Sin cupo</span> } else { @c.CuposDisponibles }</td>
+  </tr>
+}
+@if (!Model.Cursos.Any()) { <tr><td colspan="8" class="text-center text-muted">No hay cursos que coincidan.</td></tr> }
+</tbody></table></div>
+<div class="d-flex justify-content-between align-items-center">
+  <strong id="totales">Seleccionados: 0 cursos · 0 créditos</strong>
+  <button type="submit" id="btnRevisar" class="btn btn-primary" disabled>Revisar y confirmar matrícula</button>
+</div>
+</form>
+@section Scripts {
+<script>
+  const chks = document.querySelectorAll('.chk');
+  function actualizar() {
+    let n = 0, cr = 0;
+    chks.forEach(c => { if (c.checked) { n++; cr += parseInt(c.dataset.creditos); } });
+    document.getElementById('totales').textContent = `Seleccionados: ${n} cursos · ${cr} créditos`;
+    document.getElementById('btnRevisar').disabled = n === 0;
+  }
+  chks.forEach(c => c.addEventListener('change', actualizar));
+  actualizar();
+</script>
+}

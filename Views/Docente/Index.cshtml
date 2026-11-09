@@ -1,0 +1,17 @@
+@model List<Curso>
+@{ ViewData["Title"] = "Mis cursos"; var sel = ViewBag.Seleccionado as Curso; var estudiantes = ViewBag.Estudiantes as List<Estudiante> ?? new List<Estudiante>(); }
+<h2>Mis cursos asignados</h2>
+@if (!Model.Any()) { <div class="alert alert-info">No tiene cursos asignados.</div> }
+<div class="list-group mb-4">
+@foreach (var c in Model)
+{
+  <a class="list-group-item list-group-item-action @(sel?.Id == c.Id ? "active" : "")" asp-action="Index" asp-route-cursoId="@c.Id">@c.Codigo · @c.Nombre <span class="float-end">@c.Horario</span></a>
+}
+</div>
+@if (sel != null)
+{
+  <h4>Estudiantes matriculados en @sel.Codigo (@estudiantes.Count)</h4>
+  <div class="table-responsive"><table class="table table-striped bg-white">
+  <thead><tr><th>Carné</th><th>Nombre</th><th>Correo</th></tr></thead>
+  <tbody>@foreach (var e in estudiantes) { <tr><td>@e.Carne</td><td>@e.NombreCompleto</td><td>@e.Correo</td></tr> }</tbody></table></div>
+}

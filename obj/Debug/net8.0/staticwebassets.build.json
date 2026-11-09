@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "vTxjVgVmDK0lmZuqkrCAcVCm4z0Oa+FJ9s+oqshsqMU=",
+  "Source": "ProyectoFinal_MonteroIsaac",
+  "BasePath": "_content/ProyectoFinal_MonteroIsaac",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProyectoFinal_MonteroIsaac\\wwwroot",
+      "Source": "ProyectoFinal_MonteroIsaac",
+      "ContentRoot": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\",
+      "BasePath": "_content/ProyectoFinal_MonteroIsaac",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\css\\site.css",
+      "SourceId": "ProyectoFinal_MonteroIsaac",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\",
+      "BasePath": "_content/ProyectoFinal_MonteroIsaac",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ]
+}

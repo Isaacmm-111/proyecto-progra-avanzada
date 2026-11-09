@@ -1,0 +1,38 @@
+@model ConfiguracionViewModel
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{ ViewData["Title"] = "Periodo y usuarios"; var p = Model.Periodo; var roles = new[] { "Estudiante", "Docente", "Administrador" }; }
+<h2>Periodo de matrícula</h2>
+<div class="card shadow-sm mb-4"><div class="card-body">
+  <h5>@p.Nombre <span class="badge @(p.Abierto ? "bg-success" : "bg-secondary")">@(p.Abierto ? "ABIERTO" : "CERRADO")</span></h5>
+  <p>Apertura: @p.FechaApertura.ToString("dd/MM/yyyy") · Cierre: @p.FechaCierre.ToString("dd/MM/yyyy")<br />Límite de créditos por estudiante: <strong>@p.LimiteCreditos</strong></p>
+  <form asp-action="TogglePeriodo" method="post" class="d-inline"><button class="btn @(p.Abierto ? "btn-danger" : "btn-success")" type="submit">@(p.Abierto ? "Cerrar periodo" : "Abrir periodo")</button></form>
+  <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#editar">Editar límite y fechas</button>
+  <div class="collapse mt-3" id="editar">
+    <form asp-action="GuardarPeriodo" method="post" class="row g-2">
+      <input type="hidden" name="id" value="@p.Id" />
+      <div class="col-md-3"><label class="form-label">Nombre</label><input name="nombre" value="@p.Nombre" class="form-control" required /></div>
+      <div class="col-md-3"><label class="form-label">Apertura</label><input type="date" name="fechaApertura" value="@p.FechaApertura.ToString("yyyy-MM-dd")" class="form-control" required /></div>
+      <div class="col-md-3"><label class="form-label">Cierre</label><input type="date" name="fechaCierre" value="@p.FechaCierre.ToString("yyyy-MM-dd")" class="form-control" required /></div>
+      <div class="col-md-2"><label class="form-label">Límite créditos</label><input type="number" name="limiteCreditos" min="1" max="30" value="@p.LimiteCreditos" class="form-control" required /></div>
+      <div class="col-md-1 d-flex align-items-end"><button class="btn btn-primary" type="submit">Guardar</button></div>
+    </form>
+  </div>
+</div></div>
+
+<h2>Usuarios y roles</h2>
+<div class="table-responsive"><table class="table table-striped bg-white align-middle">
+<thead><tr><th>Usuario</th><th>Rol</th><th>Estado</th><th>Acciones</th></tr></thead>
+<tbody>
+@foreach (var u in Model.Usuarios)
+{
+  <tr><td>@u.Email</td>
+  <td><form asp-action="CambiarRol" method="post" class="d-flex gap-2">
+      <input type="hidden" name="id" value="@u.Id" />
+      <select name="rol" class="form-select form-select-sm" style="max-width:170px">
+        @foreach (var r in roles) { <option value="@r" selected="@(r == u.Rol)">@r</option> }
+      </select><button class="btn btn-sm btn-outline-primary" type="submit">Cambiar rol</button></form></td>
+  <td>@if (u.Activo) { <span class="badge bg-success">Activo</span> } else { <span class="badge bg-secondary">Inactivo</span> }</td>
+  <td><form asp-action="ToggleUsuario" method="post"><input type="hidden" name="id" value="@u.Id" />
+      <button class="btn btn-sm @(u.Activo ? "btn-outline-danger" : "btn-outline-success")" type="submit">@(u.Activo ? "Desactivar" : "Activar")</button></form></td></tr>
+}
+</tbody></table></div>

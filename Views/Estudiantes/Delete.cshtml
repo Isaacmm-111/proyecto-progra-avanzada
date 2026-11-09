@@ -1,0 +1,7 @@
+@model Estudiante
+@{ ViewData["Title"] = "Eliminar estudiante"; }
+<h2>Eliminar estudiante</h2>
+<div class="alert alert-warning">¿Seguro que desea eliminar a <strong>@Model.Carne - @Model.NombreCompleto</strong>?
+@if (Model.Matriculas.Any()) { <br /><strong>Tiene matrícula activa: no se eliminará, solo se inactivará.</strong> }</div>
+<form asp-action="Delete" method="post"><input type="hidden" asp-for="Id" />
+  <button class="btn btn-danger" type="submit">Confirmar</button> <a class="btn btn-secondary" asp-action="Index">Cancelar</a></form>

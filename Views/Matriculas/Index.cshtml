@@ -1,0 +1,19 @@
+@model List<Matricula>
+@{ ViewData["Title"] = "Matrículas"; }
+<h2>Matrículas</h2>
+<form method="get" class="row g-2 mb-3">
+  <div class="col-md-3"><select name="periodoId" asp-items="(SelectList)ViewBag.Periodos" class="form-select"><option value="">Periodo: Todos</option></select></div>
+  <div class="col-md-3"><select name="carreraId" asp-items="(SelectList)ViewBag.Carreras" class="form-select"><option value="">Carrera: Todas</option></select></div>
+  <div class="col-md-3"><select name="cursoId" asp-items="(SelectList)ViewBag.Cursos" class="form-select"><option value="">Curso: Todos</option></select></div>
+  <div class="col-auto"><button class="btn btn-outline-primary">Filtrar</button>
+    <a class="btn btn-success" asp-action="Exportar" asp-route-periodoId="@ViewBag.PeriodoId" asp-route-carreraId="@ViewBag.CarreraId" asp-route-cursoId="@ViewBag.CursoId">⬇ Exportar</a></div>
+</form>
+<div class="table-responsive"><table class="table table-striped bg-white align-middle">
+<thead><tr><th>Carné</th><th>Estudiante</th><th>Carrera</th><th>Curso</th><th>Créd.</th><th>Fecha</th></tr></thead>
+<tbody>
+@foreach (var m in Model)
+{
+  <tr><td>@m.Estudiante.Carne</td><td>@m.Estudiante.NombreCompleto</td><td>@m.Curso.Carrera.Codigo</td><td>@m.Curso.Codigo</td><td>@m.Curso.Creditos</td><td>@m.Fecha.ToString("dd/MM/yyyy")</td></tr>
+}
+</tbody></table></div>
+<p><strong>Total de registros encontrados: @Model.Count</strong></p>

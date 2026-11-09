@@ -1,0 +1,6 @@
+@model Carrera
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="mb-3"><label asp-for="Codigo" class="form-label"></label><input asp-for="Codigo" class="form-control" /><span asp-validation-for="Codigo" class="text-danger"></span></div>
+<div class="mb-3"><label asp-for="Nombre" class="form-label"></label><input asp-for="Nombre" class="form-control" /><span asp-validation-for="Nombre" class="text-danger"></span></div>
+<div class="mb-3"><label asp-for="DuracionAnios" class="form-label"></label><input asp-for="DuracionAnios" class="form-control" /><span asp-validation-for="DuracionAnios" class="text-danger"></span></div>
+<div class="form-check mb-3"><input asp-for="Activa" class="form-check-input" /><label asp-for="Activa" class="form-check-label"></label></div>

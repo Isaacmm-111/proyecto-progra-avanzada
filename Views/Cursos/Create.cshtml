@@ -1,0 +1,7 @@
+@model Curso
+@{ ViewData["Title"] = "Nuevo curso"; }
+<h2>Nuevo curso</h2>
+<form asp-action="Create" method="post" class="card card-body shadow-sm col-md-8">
+  <partial name="_Form" model="Model" />
+  <div><button class="btn btn-primary" type="submit">Guardar</button> <a class="btn btn-secondary" asp-action="Index">Cancelar</a></div>
+</form>

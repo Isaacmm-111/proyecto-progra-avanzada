@@ -1,0 +1,19 @@
+@model DashboardViewModel
+@{ ViewData["Title"] = "Dashboard"; var max = Model.MatriculasPorCarrera.Any() ? Math.Max(1, Model.MatriculasPorCarrera.Max(x => x.Valor)) : 1; }
+<h2 class="mb-4">Dashboard</h2>
+<div class="row g-3 mb-4">
+  <div class="col-6 col-md-3"><div class="card card-stat shadow-sm"><div class="card-body"><div class="text-muted">Estudiantes</div><div class="fs-2">@Model.TotalEstudiantes</div></div></div></div>
+  <div class="col-6 col-md-3"><div class="card card-stat shadow-sm"><div class="card-body"><div class="text-muted">Carreras</div><div class="fs-2">@Model.TotalCarreras</div></div></div></div>
+  <div class="col-6 col-md-3"><div class="card card-stat shadow-sm"><div class="card-body"><div class="text-muted">Cursos</div><div class="fs-2">@Model.TotalCursos</div></div></div></div>
+  <div class="col-6 col-md-3"><div class="card card-stat shadow-sm"><div class="card-body"><div class="text-muted">Docentes</div><div class="fs-2">@Model.TotalDocentes</div></div></div></div>
+</div>
+<div class="card shadow-sm"><div class="card-body">
+  <h5>Matrículas por carrera · periodo vigente (@(Model.PeriodoVigente ?? "sin periodo"))</h5>
+  @foreach (var item in Model.MatriculasPorCarrera)
+  {
+    <div class="mb-2">
+      <div class="d-flex justify-content-between"><span>@item.Etiqueta</span><strong>@item.Valor</strong></div>
+      <div class="progress"><div class="progress-bar" style="width:@(item.Valor * 100 / max)%"></div></div>
+    </div>
+  }
+</div></div>

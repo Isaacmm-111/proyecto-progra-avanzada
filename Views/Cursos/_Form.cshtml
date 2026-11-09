@@ -1,0 +1,17 @@
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model Curso
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="row">
+  <div class="col-md-4 mb-3"><label asp-for="Codigo" class="form-label"></label><input asp-for="Codigo" class="form-control" /><span asp-validation-for="Codigo" class="text-danger"></span></div>
+  <div class="col-md-8 mb-3"><label asp-for="Nombre" class="form-label"></label><input asp-for="Nombre" class="form-control" /><span asp-validation-for="Nombre" class="text-danger"></span></div>
+</div>
+<div class="row">
+  <div class="col-md-4 mb-3"><label asp-for="Creditos" class="form-label"></label><input asp-for="Creditos" class="form-control" /><span asp-validation-for="Creditos" class="text-danger"></span></div>
+  <div class="col-md-4 mb-3"><label asp-for="Cuatrimestre" class="form-label"></label><input asp-for="Cuatrimestre" class="form-control" /><span asp-validation-for="Cuatrimestre" class="text-danger"></span></div>
+  <div class="col-md-4 mb-3"><label asp-for="CupoMaximo" class="form-label"></label><input asp-for="CupoMaximo" class="form-control" /><span asp-validation-for="CupoMaximo" class="text-danger"></span></div>
+</div>
+<div class="mb-3"><label asp-for="CarreraId" class="form-label"></label>
+  <select asp-for="CarreraId" asp-items="(SelectList)ViewBag.Carreras" class="form-select"><option value="">-- Seleccione --</option></select><span asp-validation-for="CarreraId" class="text-danger"></span></div>
+<div class="mb-3"><label asp-for="DocenteId" class="form-label"></label>
+  <select asp-for="DocenteId" asp-items="(SelectList)ViewBag.Docentes" class="form-select"><option value="">-- Sin asignar --</option></select><span asp-validation-for="DocenteId" class="text-danger"></span></div>
+<div class="mb-3"><label asp-for="Horario" class="form-label"></label><input asp-for="Horario" class="form-control" /><span asp-validation-for="Horario" class="text-danger"></span></div>

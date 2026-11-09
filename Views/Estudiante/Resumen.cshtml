@@ -1,0 +1,26 @@
+@model ResumenMatriculaViewModel
+@{ ViewData["Title"] = "Resumen de matrícula"; }
+<h2>Resumen de tu matrícula</h2>
+<p class="text-muted">@Model.Periodo</p>
+<div class="table-responsive"><table class="table table-striped bg-white">
+<thead><tr><th>Código</th><th>Curso</th><th>Créditos</th><th>Horario</th></tr></thead>
+<tbody>
+@foreach (var c in Model.Cursos) { <tr><td>@c.Codigo</td><td>@c.Nombre</td><td>@c.Creditos</td><td>@c.Horario</td></tr> }
+</tbody></table></div>
+<p><strong>Total: @Model.CreditosSeleccionados créditos · Acumulados: @Model.CreditosAcumulados de @Model.LimiteCreditos permitidos</strong></p>
+<h5>Validaciones automáticas</h5>
+<ul class="list-unstyled">
+@foreach (var v in Model.Validaciones)
+{
+  <li class="@(v.Ok ? "text-success" : "text-danger")">@(v.Ok ? "✔" : "✘") @v.Mensaje</li>
+}
+</ul>
+@if (!Model.Valido)
+{
+  <div class="alert alert-danger"><strong>No se puede confirmar.</strong> Corrige los errores: quita un curso o cambia uno en conflicto. El botón se habilita al resolverlos.</div>
+}
+<form asp-action="Confirmar" method="post" class="d-inline">
+  @foreach (var c in Model.Cursos) { <input type="hidden" name="cursoIds" value="@c.Id" /> }
+  <button type="submit" class="btn btn-success" @(Model.Valido ? "" : "disabled")>Confirmar matrícula</button>
+</form>
+<a class="btn btn-outline-secondary" asp-action="Matricular">Volver al catálogo</a>

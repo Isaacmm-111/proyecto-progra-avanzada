@@ -1,0 +1,6 @@
+@model Carrera
+@{ ViewData["Title"] = "Eliminar carrera"; }
+<h2>Eliminar carrera</h2>
+<div class="alert alert-warning">¿Seguro que desea eliminar la carrera <strong>@Model.Codigo - @Model.Nombre</strong>? (Cursos: @Model.Cursos.Count, Estudiantes: @Model.Estudiantes.Count)</div>
+<form asp-action="Delete" method="post"><input type="hidden" asp-for="Id" />
+  <button class="btn btn-danger" type="submit">Eliminar</button> <a class="btn btn-secondary" asp-action="Index">Cancelar</a></form>

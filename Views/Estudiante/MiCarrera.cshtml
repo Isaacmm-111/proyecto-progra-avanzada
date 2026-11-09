@@ -1,0 +1,18 @@
+@model IEnumerable<Carrera>
+@{ ViewData["Title"] = "Mi carrera"; int actual = (int)ViewBag.CarreraActual; }
+<h2>Elige tu carrera</h2>
+<p class="text-muted">Solo se muestran las carreras activas. Al elegir una, verás únicamente los cursos de esa carrera.</p>
+<form asp-action="MiCarrera" method="post">
+  <div class="row g-3 mb-3">
+  @foreach (var c in Model)
+  {
+    <div class="col-md-6"><label class="card shadow-sm h-100 @(c.Id == actual ? "border-primary" : "")" style="cursor:pointer"><div class="card-body d-flex gap-3 align-items-center">
+      <input type="radio" name="carreraId" value="@c.Id" class="form-check-input mt-0" @(c.Id == actual ? "checked" : "") />
+      <div><span class="badge bg-primary">@c.Codigo</span> <strong>@c.Nombre</strong><div class="text-muted">@c.DuracionAnios años · @c.Cursos.Count cursos</div></div>
+      @if (c.Id == actual) { <span class="badge bg-success ms-auto">Seleccionada</span> }
+    </div></label></div>
+  }
+  </div>
+  <button type="submit" class="btn btn-primary">Continuar a los cursos</button>
+  <div class="form-text">Obligatorio: no se puede continuar sin elegir una carrera.</div>
+</form>

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "A:\\Programación avanzada\\Montero_Isaac_IDENTIFICACION_ProyectoFinal_Avance2\\Proyecto\\ProyectoFinal_MonteroIsaac\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProyectoFinal_MonteroIsaac.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProyectoFinal_MonteroIsaac.props",
+      "PackagePath": "build\\ProyectoFinal_MonteroIsaac.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProyectoFinal_MonteroIsaac.props",
+      "PackagePath": "buildMultiTargeting\\ProyectoFinal_MonteroIsaac.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProyectoFinal_MonteroIsaac.props",
+      "PackagePath": "buildTransitive\\ProyectoFinal_MonteroIsaac.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

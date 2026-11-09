@@ -1,0 +1,21 @@
+@model EstudianteHomeViewModel
+@{ ViewData["Title"] = "Inicio"; }
+<h2 class="mb-1">Bienvenido(a), @Model.NombreCompleto</h2>
+<p class="text-muted">Carné: @Model.Carne</p>
+<div class="row g-3 mb-4">
+  <div class="col-md-4"><div class="card card-stat shadow-sm"><div class="card-body"><div class="text-muted">Carrera</div><div class="fs-5">@Model.Carrera</div></div></div></div>
+  <div class="col-md-4"><div class="card card-stat shadow-sm"><div class="card-body"><div class="text-muted">Periodo vigente</div><div class="fs-5">@Model.PeriodoVigente</div>
+     <span class="badge @(Model.PeriodoAbierto ? "bg-success" : "bg-secondary")">@(Model.PeriodoAbierto ? "Matrícula abierta" : "Matrícula cerrada")</span></div></div></div>
+  <div class="col-md-4"><div class="card card-stat shadow-sm"><div class="card-body"><div class="text-muted">Créditos matriculados</div><div class="fs-5">@Model.CreditosMatriculados de @Model.LimiteCreditos</div></div></div></div>
+</div>
+<a class="btn btn-primary mb-4" asp-action="Matricular">Matricular cursos</a>
+<h4>Mis cursos del periodo</h4>
+<div class="table-responsive"><table class="table table-striped bg-white align-middle">
+<thead><tr><th>Código</th><th>Curso</th><th>Créditos</th><th>Docente</th><th>Horario</th></tr></thead>
+<tbody>
+@foreach (var m in Model.Matriculas)
+{
+  <tr><td>@m.Curso.Codigo</td><td>@m.Curso.Nombre</td><td>@m.Curso.Creditos</td><td>@(m.Curso.Docente?.Nombre ?? "Por asignar")</td><td>@m.Curso.Horario</td></tr>
+}
+@if (!Model.Matriculas.Any()) { <tr><td colspan="5" class="text-center text-muted">Aún no tiene cursos matriculados.</td></tr> }
+</tbody></table></div>

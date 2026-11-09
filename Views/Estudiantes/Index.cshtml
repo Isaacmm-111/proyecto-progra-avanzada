@@ -1,0 +1,15 @@
+@model IEnumerable<Estudiante>
+@{ ViewData["Title"] = "Estudiantes"; }
+<div class="d-flex justify-content-between align-items-center mb-3"><h2>Estudiantes</h2><a class="btn btn-primary" asp-action="Create">+ Nuevo estudiante</a></div>
+<form method="get" class="row g-2 mb-3"><div class="col-md-5"><input name="q" value="@ViewData["q"]" class="form-control" placeholder="🔍 Buscar por carné, nombre o carrera" /></div>
+<div class="col-auto"><button class="btn btn-outline-primary">Buscar</button></div></form>
+<div class="table-responsive"><table class="table table-striped bg-white align-middle">
+<thead><tr><th>Carné</th><th>Nombre</th><th>Carrera</th><th>Estado</th><th>Acciones</th></tr></thead>
+<tbody>
+@foreach (var e in Model)
+{
+  <tr><td>@e.Carne</td><td>@e.NombreCompleto</td><td>@e.Carrera.Nombre</td>
+  <td>@if (e.Activo) { <span class="badge bg-success">Activo</span> } else { <span class="badge bg-secondary">Inactivo</span> }</td>
+  <td class="text-nowrap"><a asp-action="Details" asp-route-id="@e.Id">Ver</a> · <a asp-action="Edit" asp-route-id="@e.Id">Editar</a> · <a class="text-danger" asp-action="Delete" asp-route-id="@e.Id">Eliminar</a></td></tr>
+}
+</tbody></table></div>

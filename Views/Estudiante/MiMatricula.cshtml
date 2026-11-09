@@ -1,0 +1,18 @@
+@model List<Matricula>
+@{ ViewData["Title"] = "Mi matrícula"; var periodo = (Periodo)ViewBag.Periodo; }
+<h2>Cursos matriculados · @periodo.Nombre</h2>
+<div class="table-responsive"><table class="table table-striped bg-white align-middle">
+<thead><tr><th>Código</th><th>Curso</th><th>Cr.</th><th>Docente</th><th>Horario</th><th>Acción</th></tr></thead>
+<tbody>
+@foreach (var m in Model)
+{
+  <tr><td>@m.Curso.Codigo</td><td>@m.Curso.Nombre</td><td>@m.Curso.Creditos</td><td>@(m.Curso.Docente?.Nombre ?? "Por asignar")</td><td>@m.Curso.Horario</td>
+  <td><form asp-action="Retirar" asp-route-id="@m.Id" method="post" onsubmit="return confirm('¿Seguro que desea retirar @(m.Curso.Codigo)?');">
+      <button class="btn btn-sm btn-outline-danger" type="submit" @(periodo.Abierto ? "" : "disabled")>Retirar</button></form></td></tr>
+}
+@if (!Model.Any()) { <tr><td colspan="6" class="text-center text-muted">No tiene cursos matriculados.</td></tr> }
+</tbody></table></div>
+<p><strong>Total de créditos: @Model.Sum(m => m.Curso.Creditos) de @periodo.LimiteCreditos</strong></p>
+@if (!periodo.Abierto) { <div class="alert alert-secondary">El periodo está cerrado: el retiro de cursos está deshabilitado.</div> }
+@if (Model.Any()) { <a class="btn btn-primary" asp-action="Comprobante">⬇ Descargar comprobante (PDF)</a> }
+<a class="btn btn-outline-secondary" asp-action="Matricular">Matricular más cursos</a>
